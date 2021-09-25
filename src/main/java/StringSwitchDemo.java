@@ -4,6 +4,7 @@ public class StringSwitchDemo {
 
         return switch (month.toLowerCase()) {
             case "january" -> 1;
+            case "fsdghsftgh" -> 22;
             case "february" -> 2;
             case "march" -> 3;
             case "april" -> 4;
@@ -21,7 +22,7 @@ public class StringSwitchDemo {
 
     public static void main(String[] args) {
 
-        String month = "August";
+        String month = "fsdghsftgh";
 
         int returnedMonthNumber =
                 StringSwitchDemo.getMonthNumber(month);
